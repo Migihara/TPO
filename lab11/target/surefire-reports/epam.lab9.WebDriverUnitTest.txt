@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: epam.lab9.WebDriverUnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.581 s <<< FAILURE! - in epam.lab9.WebDriverUnitTest
+testSearchAndNavigateToProductPage(epam.lab9.WebDriverUnitTest)  Time elapsed: 1.539 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.51 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-D53RL5C', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00467A53+230547]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00343C11+400897]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00156070+3568]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0017F43D+65597]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0017EAB0+63152]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0017BCAF+51375]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00177CCC+35020]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x001A8763+234339]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x001A805C+232540]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x0019EB86+194438]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00182533+78131]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00181515+74005]
+	Microsoft::Applications::Events::GUID_t::GUID_t [0x00181F3D+76605]
+	GetHandleVerifier [0x0055991C+1221468]
+	Microsoft::Applications::Events::FromJSON [0x0062A542+132370]
+	Microsoft::Applications::Events::FromJSON [0x00629EC7+130711]
+	Microsoft::Applications::Events::FromJSON [0x0061ED30+85248]
+	Microsoft::Applications::Events::FromJSON [0x0062AF1B+134891]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00356ADF+478415]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x0034C5F8+436200]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x0034C76B+436571]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00336DF4+348132]
+	BaseThreadInitThunk [0x760EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77997CBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77997C8E+238]
+	(No symbol) [0x00000000]
+
+	at epam.lab9.WebDriverUnitTest.setUp(WebDriverUnitTest.java:21)
+
